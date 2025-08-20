@@ -103,6 +103,7 @@ void RunAllTests() {
     std::cout << "DeleteAt middle: " << (deleteResult ? "Passed" : "Failed") << "\n";
 
     int expectedAfterDeleteMiddle[] = {1, 2};
+    
     std::cout << "DeleteAt middle shifts elements: "
               << (CheckArrayContents(arr2, expectedAfterDeleteMiddle, 2) ? "Passed" : "Failed") << "\n";
 
